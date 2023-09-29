@@ -13,4 +13,7 @@ public class Order {
         this.status = status;
     }
 
+    public String getStatus(){
+        return this.status;
+    }
 }
