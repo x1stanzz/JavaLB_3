@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.Product;
 import java.util.ArrayList;
 
 public class Cart {
@@ -15,5 +16,14 @@ public class Cart {
 
     public ArrayList<Product> getCart() {
         return cart;
+    }
+
+    public void showCart(){
+        for(Product product : cart){
+            System.out.println("Id: " + product.getId());
+            System.out.println("Name: " + product.getName());
+            System.out.println("Price: " + product.getPrice());
+            System.out.println("-------------------------------");
+        }
     }
 }
