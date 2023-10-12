@@ -3,17 +3,6 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        /*
-        todo:
-        Create an e-commerce system
-        1. Create an entity named Product with attributes id, name price
-        2. Create an entity named Cart where products will be kept
-        3. Create an entity named Order with attributes orderId, products, status
-        4. Create methods to add and remove products from cart
-        5. Get status of each order
-        6. Make test cases
-        * */
-
         //Creating a cart to keep products
         Cart cart = new Cart();
 
